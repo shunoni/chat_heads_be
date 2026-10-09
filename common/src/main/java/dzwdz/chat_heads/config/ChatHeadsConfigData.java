@@ -22,6 +22,8 @@ public class ChatHeadsConfigData implements ConfigData, ChatHeadsConfig {
 	public boolean smartHeuristics = ChatHeadsConfigDefaults.SMART_HEURISTICS;
 	@ConfigEntry.Gui.Tooltip()
 	public boolean handleSystemMessages = ChatHeadsConfigDefaults.HANDLE_SYSTEM_MESSAGES;
+	@ConfigEntry.Gui.Tooltip()
+	public boolean useBedrockTabListSkins = ChatHeadsConfigDefaults.USE_BEDROCK_TAB_LIST_SKINS;
 	public boolean drawShadow = ChatHeadsConfigDefaults.DRAW_SHADOW;
 	@ConfigEntry.Gui.Tooltip()
 	@ConfigEntry.BoundedDiscrete(min = 0, max = 16)
@@ -56,6 +58,11 @@ public class ChatHeadsConfigData implements ConfigData, ChatHeadsConfig {
 	@Override
 	public boolean handleSystemMessages() {
 		return handleSystemMessages;
+	}
+
+	@Override
+	public boolean useBedrockTabListSkins() {
+		return useBedrockTabListSkins;
 	}
 
 	@Override

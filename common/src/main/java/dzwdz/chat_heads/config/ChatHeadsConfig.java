@@ -8,6 +8,7 @@ public interface ChatHeadsConfig {
 	SenderDetection senderDetection();
 	boolean smartHeuristics();
 	boolean handleSystemMessages();
+	boolean useBedrockTabListSkins();
 	boolean drawShadow();
 	Map<String, String> getNameAliases();
 	boolean detectNameAliases();

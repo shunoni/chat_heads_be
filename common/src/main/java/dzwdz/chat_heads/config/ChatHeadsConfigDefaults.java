@@ -9,6 +9,7 @@ public class ChatHeadsConfigDefaults implements ChatHeadsConfig {
 	public static final SenderDetection SENDER_DETECTION = SenderDetection.UUID_AND_HEURISTIC;
 	public static final boolean SMART_HEURISTICS = true;
 	public static final boolean HANDLE_SYSTEM_MESSAGES = true;
+	public static final boolean USE_BEDROCK_TAB_LIST_SKINS = true;
 	public static final boolean DRAW_SHADOW = true;
 	public static final float THREE_DEE_NESS = 0.0f;
 	public static final int RIGHT_PADDING = 1; // one pixel for the shadow, which is consistent with any other text
@@ -39,6 +40,11 @@ public class ChatHeadsConfigDefaults implements ChatHeadsConfig {
 	@Override
 	public boolean handleSystemMessages() {
 		return HANDLE_SYSTEM_MESSAGES;
+	}
+
+	@Override
+	public boolean useBedrockTabListSkins() {
+		return USE_BEDROCK_TAB_LIST_SKINS;
 	}
 
 	@Override

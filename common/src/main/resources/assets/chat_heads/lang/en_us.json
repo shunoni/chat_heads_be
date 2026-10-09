@@ -19,6 +19,8 @@
   "text.autoconfig.chat_heads.option.smartHeuristics.@Tooltip": "Turn off heuristics if the server is known to send UUIDs.\n(Applies to the \"UUID and heuristic\" sender detection)",
   "text.autoconfig.chat_heads.option.handleSystemMessages": "Handle system messages",
   "text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip": "Whether heads can be added to \"pure\" server messages.\nNote that many servers (e.g. running the FreedomChat plugin)\nturn player messages into server messages!\nOnly disable this option if you know what you are doing!",
+  "text.autoconfig.chat_heads.option.useBedrockTabListSkins": "Use Bedrock tab-list skins",
+  "text.autoconfig.chat_heads.option.useBedrockTabListSkins.@Tooltip": "Use native skins from ViaFabricPlus Bedrock tab-list entries when available.",
   "text.autoconfig.chat_heads.option.nameAliases": "Name Aliases",
   "text.autoconfig.chat_heads.option.nameAliases.@Tooltip": "Some servers allow setting nicknames which can't automatically be matched.\nHere you can manually match those nicknames to their profile name, like:\nnickname -> profilename",
   "text.autoconfig.chat_heads.option.detectNameAliases": "Auto-detect Name Aliases",
